@@ -60,23 +60,23 @@ else if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST)) {
             throw new \Exception('Invalid post body.', 500);
         }
 
-        $itemToDeleteKey = -1;
-        foreach ($data[$jsonObj['From']] as $key => $expense) {
+        $found = false;
+        $newItems = [];
+        foreach ($data[$jsonObj['From']] as $expense) {
             if ($expense['name'] === $jsonObj['Delete']) {
-                $itemToDeleteKey = $key;
-                break;
+                $found = true;
+                continue;
             }
+            $newItems[] = $expense;
         }
         
-        if ($itemToDeleteKey !== -1) {
-            unset($data[$jsonObj['From']][$itemToDeleteKey]);
-        }
-        else {
+        
+        if (!$found) {
             echo 'Item to be deleted not found!';
             throw new \Exception('Invalid delete item.', 404);
         }
-        
 
+        $data[$jsonObj['From']] = $newItems;
         $data = json_encode($data);
 
         if (!file_put_contents('data.json', $data)) {
