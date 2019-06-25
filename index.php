@@ -2,8 +2,11 @@
 declare(strict_types = 1);
 
 header('Access-Control-Allow-Origin: *');
+header('Access-Control-Allow-Methods: GET, POST, PUT, DELETE, OPTIONS');
 header('Content-Type: application/json');
 header('Accept: application/json');
+header("Access-Control-Allow-Headers: Origin, X-Requested-With, Content-Type, Accept");
+
 
 if($_SERVER["REQUEST_METHOD"] == "GET" && isset($_GET)) {
     http_response_code(200);
@@ -83,13 +86,23 @@ else if($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST)) {
 
         http_response_code(200);
     }
+    else if (array_key_exists('reset', $jsonObj)) {
+        $backUpData = file_get_contents('backupData.json');
+
+        if (!file_put_contents('data.json', $backUpData)) {
+            print_r(error_get_last());
+            throw new \Exception('Could not save file!', 500);
+        }
+
+        http_response_code(200);
+    }
     else {
         echo 'Invalid post body.';
         throw new \Exception('Invalid post body.', 500);
     }
 }
 else {
-    http_response_code(500);
+    http_response_code(200);
 }
 
 unset($_REQUEST);
