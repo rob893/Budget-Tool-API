@@ -1,1 +1,111 @@
-{"Annual":[{"name":"Amazon Prime","expense":120},{"name":"Microsoft Office 365","expense":70},{"name":"Annual Gym Fees","expense":52},{"name":"Car Registration","expense":200},{"name":"Federal Taxes (after 401k)","expense":26811},{"name":"AZ Taxes (after 401k)","expense":3957},{"name":"401k Contributions","expense":10290},{"name":"Employee Benefits (Health, Vision, Dental, etc.)","expense":3650},{"name":"Web Server Hosting and Domain","expense":75},{"name":"Test","expense":200}],"Monthly":[{"name":"Rent","expense":1325},{"name":"Phone","expense":116},{"name":"Student Loans","expense":1000},{"name":"Long Term Savings","expense":2000},{"name":"Roth IRA","expense":250},{"name":"WoW","expense":15},{"name":"Car Insurance","expense":170},{"name":"Renters Insurance","expense":13},{"name":"Sling TV","expense":30},{"name":"Internet","expense":60},{"name":"Netflix","expense":10},{"name":"Hulu","expense":6},{"name":"XM Radio","expense":20},{"name":"Gym Membership","expense":26},{"name":"Power Bill","expense":150},{"name":"Water Bill","expense":70},{"name":"Misc Amazon TV Channel","expense":8},{"name":"Gas","expense":175},{"name":"Groceries","expense":500}]}
+{
+    "AnnualIncome": 196000,
+    "Annual": [
+        {
+            "name": "Amazon Prime",
+            "expense": 120
+        },
+        {
+            "name": "Microsoft Office 365",
+            "expense": 70
+        },
+        {
+            "name": "Car Registration",
+            "expense": 683
+        },
+        {
+            "name": "Federal Taxes (after 401k)",
+            "expense": 36239
+        },
+        {
+            "name": "NV Taxes (after 401k)",
+            "expense": 0
+        },
+        {
+            "name": "401k Contributions",
+            "expense": 19600
+        },
+        {
+            "name": "Employee Benefits (Health, Vision, Dental, etc.)",
+            "expense": 3650
+        },
+        {
+            "name": "Web Server Hosting and Domain",
+            "expense": 75
+        }
+    ],
+    "Monthly": [
+        {
+            "name": "Rent",
+            "expense": 1700
+        },
+        {
+            "name": "Phone",
+            "expense": 119
+        },
+        {
+            "name": "Long Term Savings",
+            "expense": 2000
+        },
+        {
+            "name": "Roth IRA",
+            "expense": 250
+        },
+        {
+            "name": "WoW",
+            "expense": 15
+        },
+        {
+            "name": "Car Insurance",
+            "expense": 170
+        },
+        {
+            "name": "Renters Insurance",
+            "expense": 13
+        },
+        {
+            "name": "Cable and Internet",
+            "expense": 134
+        },
+        {
+            "name": "Netflix",
+            "expense": 10
+        },
+        {
+            "name": "Hulu",
+            "expense": 6
+        },
+        {
+            "name": "XM Radio",
+            "expense": 20
+        },
+        {
+            "name": "Lawn Service",
+            "expense": 60
+        },
+        {
+            "name": "Power Bill",
+            "expense": 75
+        },
+        {
+            "name": "Natural Gas",
+            "expense": 90
+        },
+        {
+            "name": "Water Bill",
+            "expense": 75
+        },
+        {
+            "name": "Gas",
+            "expense": 175
+        },
+        {
+            "name": "Groceries",
+            "expense": 500
+        },
+        {
+            "name": "Car Payment",
+            "expense": 335
+        }
+    ]
+}

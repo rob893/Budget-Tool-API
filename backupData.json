@@ -1,4 +1,5 @@
 {
+    "AnnualIncome": 196000,
     "Annual": [
         {
             "name": "Amazon Prime",
@@ -9,24 +10,20 @@
             "expense": 70
         },
         {
-            "name": "Annual Gym Fees",
-            "expense": 52
-        },
-        {
             "name": "Car Registration",
-            "expense": 200
+            "expense": 683
         },
         {
             "name": "Federal Taxes (after 401k)",
-            "expense": 26811
+            "expense": 36239
         },
         {
-            "name": "AZ Taxes (after 401k)",
-            "expense": 3957
+            "name": "NV Taxes (after 401k)",
+            "expense": 0
         },
         {
             "name": "401k Contributions",
-            "expense": 10290
+            "expense": 19600
         },
         {
             "name": "Employee Benefits (Health, Vision, Dental, etc.)",
@@ -37,19 +34,14 @@
             "expense": 75
         }
     ],
-
     "Monthly": [
         {
             "name": "Rent",
-            "expense": 1325
+            "expense": 1700
         },
         {
             "name": "Phone",
-            "expense": 116
-        },
-        {
-            "name": "Student Loans",
-            "expense": 1000
+            "expense": 119
         },
         {
             "name": "Long Term Savings",
@@ -72,12 +64,8 @@
             "expense": 13
         },
         {
-            "name": "Sling TV",
-            "expense": 30
-        },
-        {
-            "name": "Internet",
-            "expense": 60
+            "name": "Cable and Internet",
+            "expense": 134
         },
         {
             "name": "Netflix",
@@ -92,20 +80,20 @@
             "expense": 20
         },
         {
-            "name": "Gym Membership",
-            "expense": 26
+            "name": "Lawn Service",
+            "expense": 60
         },
         {
             "name": "Power Bill",
-            "expense": 150
+            "expense": 75
+        },
+        {
+            "name": "Natural Gas",
+            "expense": 90
         },
         {
             "name": "Water Bill",
-            "expense": 70
-        },
-        {
-            "name": "Misc Amazon TV Channel",
-            "expense": 8
+            "expense": 75
         },
         {
             "name": "Gas",
@@ -114,6 +102,10 @@
         {
             "name": "Groceries",
             "expense": 500
+        },
+        {
+            "name": "Car Payment",
+            "expense": 335
         }
     ]
 }
